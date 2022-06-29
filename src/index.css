@@ -1,13 +1,29 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+body{
+  background-image:url("reactbg.jpg");
+  background-position: fixed;
+  background-size:cover;
 }
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.header
+{
+  color:white;
+  text-align:center;
+  margin-top:10px;
+  z-index:1;
+}
+#root
+{
+  color:white;
+  text-align:center;
+  margin:auto;
+  z-index:1;
+  background-image:url("daadibg.jpg");
+  background-repeat:no-repeat;
+  background-position-x: center;
+  background-position-y:-1px;
+}
+@media only screen and (max-width: 600px) {
+  #root {
+    background-image:url("daadibg2.jpg");
+    background-position-y:-1px;
+  }
 }
